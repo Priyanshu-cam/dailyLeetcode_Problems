@@ -33,8 +33,6 @@ int main()
 
     for (int i = 0; i < n; i++)
         cin >> arr[i];
-    int target;
-    cin >> target;
 
    cout<<s.maxProfit(arr);
     return 0;
